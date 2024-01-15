@@ -40,3 +40,30 @@ h1{
 .btn-style{
     background-color: #5f4bb6;
 }
+
+/* responsive */
+
+@media (max-width:768px){
+    .card{
+        width: 254px;
+    }
+    .calc-head #result {
+        width: 94%;
+        font-size: 17px;
+        height: 69px;
+      
+      
+       
+    }
+    .btn {
+        width: 63px;
+        height: 63px;
+    
+        font-size: 12px;
+       
+    }
+    h1 {
+
+        font-size: 25px;
+    }
+}
